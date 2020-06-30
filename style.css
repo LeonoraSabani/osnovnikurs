@@ -1,0 +1,452 @@
+* {
+  box-sizing: border-box;
+font-family: Calibri;
+}
+
+body {
+  margin: 0px;
+
+}
+
+header {
+  background-color:white;
+  height: 80px;
+  vertical-align: middle;
+
+}
+
+#Logo {
+  float:left;
+  padding: 10px 0px;
+}
+
+#Logo:hover {
+  cursor: pointer;
+  color:grey;
+  transform: scale(1.1);
+  transition: 0.2s;
+
+}
+
+
+
+aside{
+  background-image: url(https://www.polar.com/sites/default/files/static/lesmills/Les-Mills-full-width1920x800px-hero.jpg);
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 800px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+
+
+#opis {
+  width: 450px;
+  height: 450px;
+  margin-top: 170px;
+  margin-left: 30px;
+  padding: 45px;
+  text-align: justify;
+  color: black;
+  font-size: 22px;
+  font-family: Calibri;
+  background-color: #d2d8d9;
+  display: inline-block;
+  border: 1px solid gainsboro;
+  -webkit-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  opacity: 0.8;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+
+}
+
+li
+{
+margin-top: 25px;
+margin-right: 15px;
+font-family: Calibri;
+border: 1px solid darkgrey;
+display: inline-block;
+padding: 5px 10px;
+color: darkgrey;
+
+}
+
+li:hover {
+  cursor: pointer;
+  color: NavajoWhite;
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+#clear {
+  margin-top: 50px;
+  float: none;
+  clear: both;
+}
+
+
+
+ footer {
+   background-color: #adb3af;
+   width: 100%;
+   height: auto;
+   font-family: Calibri;
+   color: black;
+   text-shadow: 1px 1px white;
+   text-align: center;
+   padding: 20px;
+ }
+
+ .slike {
+   width: 32px;
+   width: 32px;
+
+ }
+
+
+
+
+main {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.polje {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.ba {
+  float: left;
+width: 200px;
+}
+
+.paragraf {
+
+  font-family: Calibri;
+  display: inline-block;
+  width: 60%;
+  padding: 25px 35px;
+  text-align: justify;
+  margin-top: 0px;
+  margin-left: 35px;
+
+}
+#tone {
+  font-family: Calibri;
+  display: inline-block;
+  width: 60%;
+  padding: 15px 35px;
+  text-align: justify;
+  margin-top: 0px;
+  margin-left: 35px;
+
+}
+
+.paragraf:hover {
+  cursor: pointer;
+  color:grey;
+  transform: scale(1.1);
+  border: 1px solid gainsboro;
+  -webkit-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  transition: 0.2s;
+}
+#tone:hover {
+  cursor: pointer;
+  color:grey;
+  transform: scale(1.1);
+  border: 1px solid gainsboro;
+  -webkit-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 9px -8px rgba(0,0,0,0.75);
+  transition: 0.2s;
+}
+
+.centarLogo {
+  width: 130px;
+  height: 130px;
+  border: 1px solid grey;
+  padding: 15px;
+  float: left;
+  margin-left: 300px;
+
+
+}
+
+.objekti {
+  display: inline-block;
+  width: 500px;
+  height: 230px;
+
+
+
+}
+
+.opis2 {
+  color: #b1b5b3;
+  padding: 0px 16px;
+  margin-top:-2px;
+
+}
+
+.linkovi {
+  color: lightblue;
+  text-decoration: none;
+}
+.linkovi:hover {
+cursor: pointer;
+color:#4267a6;
+
+}
+
+section form {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+section label {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+section input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+section textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+section button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #ebccb0;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#opis3 {
+margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 1px 1px #bab7b5;
+  color:#dbaf86;
+}
+
+#credit {
+  float: right;
+  font-size: 12px;
+
+}
+
+#c {
+  color:grey;
+}
+
+@media only screen and (max-width:750px) {
+  .paragraf {
+    display: inline-block;
+    width: 100%;
+    padding: 25px 35px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 35px;
+  }
+  #tone {
+  display: inline-block;
+  width: 100%;
+  padding: 25px 35px;
+  text-align: justify;
+  margin-top: 0px;
+  margin-left: 35px;}
+}
+
+@media only screen and (max-width:650px) {
+  ul {
+    display: block;
+  }
+  li {
+    text-align: center;
+  }
+  header {
+    height: 100px;
+  }
+  .paragraf {
+    width: 100%;
+  }
+  #tone {
+width: 100%;
+  }
+  section form {
+      width: 300px;
+      margin: auto;
+      margin-top: 100px;
+  }
+}
+
+  @media only screen and (max-width:450px) {
+    header {
+      height:150px;
+    }
+
+    .paragraf {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width:950px) {
+  aside {
+    background-position: -200px 0px;
+  }
+  .centarLogo { margin-left: 200px;}
+}
+
+@media only screen and (max-width:890px) {
+  aside {
+    background-position: -400px 0px;
+  }
+}
+
+@media only screen and (max-width:850px) {
+
+  .centarLogo { margin-left: 120px;}
+}
+
+@media only screen and (max-width:770px) {
+
+  .centarLogo { margin-left: 80px;}
+}
+
+@media only screen and (max-width:730px) {
+
+  .centarLogo { margin-left: 50px;}
+  .objekti {
+
+    width: 400px;
+    height: 230px;
+
+  }
+
+  .opis2 {
+
+padding: 0px 16px;
+  margin-top:-2px;
+
+  }
+}
+
+@media only screen and (max-width:750px) {
+  aside {
+    background-position: -500px 0px;
+  }
+  #opis {
+    width: 400px;
+    height: 330px;
+    margin-top: 170px;
+    margin-left: 30px;
+    padding: 35px;
+    font-size: 18px;
+
+}
+
+@media only screen and (max-width:600px) {
+  aside {
+    background-position: -700px 0px;
+  }
+  #opis {
+    width: 360px;
+    height: 300px;
+    margin-top: 170px;
+    margin-left: 30px;
+    padding: 30px;
+    font-size: 16px;
+
+
+}
+      .centarLogo { margin-left: 30px;}
+      .objekti {
+
+        width: 330px;
+        height: 230px;
+
+      }
+
+      .opis2 {
+
+    padding: 0px 14px;
+      margin-top:-2px;
+
+      }
+    }
+
+
+@media only screen and (max-width:510px) {
+  .centarLogo { margin-left: 20px;}
+  .objekti {
+
+    width: 290px;
+    height: 230px;
+
+  }
+
+  .opis2 {
+
+  padding: 0px 10px;
+  margin-top:-2px;}
+  }
+
+
+
+
+@media only screen and (max-width:400px) {
+  aside {
+    background-position: -900px 0px;
+  }
+  #opis {
+    width: 330px;
+    height: 250px;
+    margin-top: 170px;
+    margin-left: 30px;
+    padding: 30px;
+    font-size: 14px;
+  }
+    section form {
+        width: 200px;
+        margin: auto;
+        margin-top: 100px;
+    }
+  }
+  section label {
+      font-weight: bold;
+      font-size: 14px;
+      padding-left: 5px;
+  }
+}
